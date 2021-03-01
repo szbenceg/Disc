@@ -1,0 +1,173 @@
+.upload-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.upload-box{
+    position: absolute;
+    height: 420px;
+    width: 620px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 8px;
+    color: #6D6D6D;
+}
+
+.upload-box-title{
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+.input-info-container{
+    width: 400px;
+}
+.disc-specs{
+    width: 100%;
+}
+
+.disc-specs input[type='text']{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 0.5px solid #707070;
+    margin-left: 10px;
+}
+.disc-artist{
+    position: absolute;
+    width: 400px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    -ms-transform: translate(-50%, -20%);
+}
+.disc-album-name{
+    position: absolute;
+    width: 400px;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -29%);
+    -ms-transform: translate(-50%, -29%);
+}
+.disc-genre{
+    position: absolute;
+    width: 400px;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -38%);
+    -ms-transform: translate(-50%, -38%);
+}
+.disc-released{
+    position: absolute;
+    width: 400px;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+    -ms-transform: translate(-50%, -47%);
+}
+.disc-country{
+    position: absolute;
+    width: 400px;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -56%);
+    -ms-transform: translate(-50%, -56%);
+}
+.disc-condition{
+    position: absolute;
+    width: 400px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    -ms-transform: translate(-50%, -65%);
+}
+.disc-description{
+    position: absolute;
+    width: 400px;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -74%);
+    -ms-transform: translate(-50%, -74%);
+}
+.disc-image{
+    position: absolute;
+    width: 400px;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -83%);
+    -ms-transform: translate(-50%, -83%);
+}
+
+
+.upload-buttons-container{
+    margin-top: 310px;
+    float: right;
+    position: relative;
+    margin-right: -170px;
+}
+
+.upload-button{
+    background-color: #DFCFC2;
+    margin-left: 8px;
+    border-radius: 6px;
+    padding: 6px 12px;
+    border: none;
+    border: solid #707070 1px;
+}
+
+.upload-button:focus{
+    outline: none;
+}
+
+.close-image{
+    position: relative;
+    height: 18px;
+    top: 10px;
+    right: 10px;
+    float: right;
+}
+
+.close-image:hover{
+    cursor: pointer;
+}
+
+.send-message-button:hover{
+    cursor: pointer;
+}
+
+.info{
+    display: inline-block;
+}
+
+.upload-box div{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.disc-specs input[type='text'] {
+    width: 100%;
+}
+
+.upload-box-title{
+    display: block !important;
+}
+.close-image{
+    position: absolute !important;
+}
+
+.upload-buttons-container{
+    position: absolute;
+}

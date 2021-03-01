@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #6D6D6D;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    position: relative;
+    width: 100%;
+}
+
+.slide-container{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateY(-50%);
+    width: 90%;
+    height: 280px;
+}
+
+.slide-title-container{
+    font-size: 18px;
+    padding-left: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #707070;
+}
+
+.slide-title{
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.slide-arrow-container{
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+}
+
+.slide-arrow-img{
+    height: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.slide-arrow-container:hover{
+    cursor: pointer;
+}
+
+.left-arrow{
+    margin-right: 6px;
+    margin-left: 6px;
+}
+.right-arrow{
+    margin-right: 6px;
+}
+
+.vinyls-container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 200px;
+    width: 100%;
+    white-space: nowrap
+}
+
+.image-container{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.image-description{
+    padding-top: 4px;
+    font-size: 16px;
+}
+
+.vinyls-container{
+    position: absolute;
+    top: 50px;
+    left: 4%;
+    width: 96%;
+}
+
+.vinyl-image{
+    height: 140px;
+}
+
+.vinyl-image:hover{
+    cursor: pointer;
+}
+
+/*At a specific style music */
+
+.music-style-view{
+    height: 100%;
+    margin-top: 30px;
+}
+
+.music-style-view .image-description{
+    margin-bottom: 30px;
+}

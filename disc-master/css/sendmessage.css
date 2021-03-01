@@ -1,0 +1,101 @@
+.message-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.message-box{
+    position: absolute;
+    height: 400px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: solid #707070 1px;
+    background-color: white;
+    border-radius: 8px;
+    color: #6D6D6D;
+}
+
+.message-box-title{
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+.text-message-box-container{
+    position: relative;
+    width: 80%;
+    height: 180px;
+    background-color: #F3F3F3;
+    border: solid #707070 1px;
+    border-radius: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+.text-message-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    top: 5px;
+    left: 5px;
+}
+
+.text-message-box:focus{
+    outline: none;
+}
+
+.message-fill-advice{
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.message-description{
+    margin-top: 15px;
+}
+
+.send-message-buttons-container{
+    position: relative;
+}
+
+.send-message-buttons-container{
+    margin-top: 20px;
+    float: right;
+}
+
+.send-message-button{
+    background-color: #DFCFC2;
+    margin-left: 8px;
+    border-radius: 6px;
+    padding: 6px 12px;
+    border: none;
+    border: solid #707070 1px;
+}
+
+.send-message-button:focus{
+    outline: none;
+}
+
+.close-image{
+    position: relative;
+    height: 18px;
+    top: 10px;
+    right: 10px;
+    float: right;
+}
+
+.close-image:hover{
+    cursor: pointer;
+}
+
+.send-message-button:hover{
+    cursor: pointer;
+}
